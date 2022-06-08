@@ -27,9 +27,10 @@ function Tickets() {
     }
 
   return (
-    <div>
+    <>
+    <BackButton url="/" />
     <h1>Tickets</h1>
-    </div>
+    </>
   )
   
 }
