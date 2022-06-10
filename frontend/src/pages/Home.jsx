@@ -18,9 +18,19 @@ function Home() {
             <FaTicketAlt /> View My Tickets
         </Link>
         
-        <Link to='/admin' className='btn btn-block'>
+        <Link to='/admin' >
             <FaTicketAlt /> Adminstrative area
-        </Link>
+                </Link>
+                <div>
+                    <Link to='/contact' >
+                    <FaTicketAlt /> Contact Page
+                </Link> 
+                </div>
+                <div>
+                    <Link to='/about' >
+                    <FaTicketAlt /> About Page
+                </Link> 
+                </div>
     </>
   )
 }
