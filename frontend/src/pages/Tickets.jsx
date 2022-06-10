@@ -36,8 +36,8 @@ function Tickets() {
         <div className="tickets">
             <div className="ticket-headings">
                 <div>Date</div>
+                <div>Subclass</div>
                 <div>Status</div>
-                <div>Product</div>
                 <div></div>
             </div>
             {tickets.map((ticket) => (
