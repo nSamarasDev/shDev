@@ -10,7 +10,7 @@ const ticketSchema = mongoose.Schema(
     product: {
       type: String,
       required: [true, 'Please add a product'],
-      enum: [' ', 'adminstrative', 'mechanical', 'financial'],
+      enum: [' ', 'Adminstrative', 'Mechanical', 'Financial'],
     },
     description: {
       type: String,
